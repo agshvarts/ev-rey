@@ -15,7 +15,7 @@ public:
   
   int id;
   double x, y, z;
-public:
+//public:
   NODE(int id, int dim, double x, double y, double z);
   void print(ofstream &outfile);
 };
